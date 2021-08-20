@@ -128,9 +128,14 @@ ul{
 @media screen and (max-width: 1024px){
 
     .menu-navbar{
-        justify-content: space-evenly;
+        justify-content: center;
         align-content: center;
         text-align: center;
+        flex-wrap: nowrap;
+    }
+
+    .links-menu{
+        margin: 20px;
     }
 
     .img-inicio{
