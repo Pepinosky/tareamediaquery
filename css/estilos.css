@@ -147,8 +147,8 @@ ul{
     
     .articulo-container{
        
-        flex-wrap: wrap-reverse;
-       margin: auto 20px;
+    flex-wrap: wrap-reverse;
+    margin: auto 20px;
     
         
     }
@@ -156,8 +156,14 @@ ul{
 
         max-width: 60%;
         height: 100%;
-        justify-items: center;
+        margin-left: 66px
+
     
+    }
+
+    .articulo-txt> footer{
+        color: black;
+
     }
    
     
