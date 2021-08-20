@@ -1,0 +1,123 @@
+
+@media (min-width: 1024px)  {
+    header, section, main, nav, footer, article, hgroup  {
+        display: block;
+        width: 100%;
+    } 
+    a{
+        text-decoration: none;
+        outline: none;
+        transition: .4s all ease-in-out;
+        
+    }
+    ul{
+        list-style: none;
+ 
+    }
+
+
+   .menu-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    
+
+   } 
+
+   .menu-navbar{
+    background-color: #4E73DF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255, 255, .3);
+    padding: 0 1.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+   }
+
+   .menu-list{
+    display: flex;
+    justify-content: flex-start;
+   }
+
+   .links-menu{
+    padding: 0 1rem;
+    line-height: 70px;
+    height: 70px;
+    display: block;
+    color: white;
+    transition: .4s all ease-in-out;
+    font-weight: 800;
+    font-size: 2rem;
+ }
+
+ .links-menu:hover{
+    box-shadow: 0 -5px 0 0 white inset;
+}
+
+ .inicio{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    flex-flow: row;
+    
+} 
+
+ .img-inicio{
+    max-width: 100%;
+    height: auto;
+    
+    
+} 
+
+
+
+.articulo-container{
+   display: flex;
+   margin: auto;
+    
+  
+    
+}
+
+.img-articulo{
+    max-width: 100%;
+    height: 100%;
+
+}
+
+.Titulos{
+    
+    font-size: 45px;
+    margin-bottom: 3rem;
+    line-height: 20px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.sub-title{
+    color: rgb(49, 47, 47);
+}
+
+.articulo-txt{
+    line-height: 3.2rem;
+    color: rgb(58, 38, 38);
+}
+
+
+
+
+
+
+   
+  
+
+
+}
